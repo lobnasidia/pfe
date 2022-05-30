@@ -1,0 +1,21 @@
+.container {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+
+	p {
+		margin: 0.5rem 0;
+		font-weight: 500;
+		font-size: 1.4rem;
+	}
+
+	.radio_input {
+		span {
+			font-size: 1.7rem;
+			font-weight: 400;
+			text-transform: capitalize;
+		}
+	}
+}
